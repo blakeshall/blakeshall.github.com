@@ -1,5 +1,11 @@
 $(document).ready(function() {
 
+
+  /* Orbit Stuff */
+  //$(window).load(function() {
+  //  $('#work').orbit();
+ // });
+
 	/* Use this js doc for all application specific JS */
 
 	/* TABS --------------------------------- */
