@@ -1,12 +1,26 @@
 <html>
   <head>
     <title>Blake Hall</title>
-    <link rel="stylesheet" type="text/css" href="css/foundation/globals.css">
-    <link rel="stylesheet" type="text/css" href="css/foundation/ui.css">
-    <link rel="stylesheet" type="text/css" href="css/foundation/orbit.css">
-    <link rel="stylesheet" type="text/css" href="css/foundation/reveal.css">
-    <link rel="stylesheet" type="text/css" href="css/foundation/mobile.css">
-    <link rel="stylesheet" type="text/css" href="css/foundation/forms.css">
+    <link rel="stylesheet" type="text/css" href="css/globals.css">
+    <link rel="stylesheet" type="text/css" href="css/ui.css">
+    <link rel="stylesheet" type="text/css" href="css/orbit.css">
+    <link rel="stylesheet" type="text/css" href="css/reveal.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile.css">
+    <link rel="stylesheet" type="text/css" href="css/forms.css">
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <script src="js/jquery-1.5.1.min.js"></script>
+    <script src="js/jquery.reveal.js"></script>
+    <script src="js/jquery.orbit-1.3.0.js"></script>
+    <script src="js/forms.jquery.js"></script>
+    <script src="js/jquery.customforms.js"></script>
+    <!--<script src="js/foundation/jquery.placeholder.js"></script>-->
+    <script src="js/app.js"></script>
+    <script type="text/javascript">
+      $(window).load(function() {
+        $('#featured').orbit();
+      });
+
+    </script>
 
   </head>
 
@@ -33,26 +47,32 @@
               <div class="row">
                 <div class="four columns offset-by-one">
                   <h3>I Build Things</h3>
-                  <p>Hi, I'm Blake and I build websites and web apps.
-                  I'm currently studying at the University of Kentucky,
-                  majoring in Computer Science, and a former Google
-                  Summer of Code Participant. You can see some of my work
-                  in the next tab.
+                  <p>Hi, I'm Blake, aspiring web developer, and I build
+                  websites and web apps. I'm currently studying at the
+                  University of Kentucky, majoring in Computer Science,
+                  and a former Google Summer of Code Participant.
+                  Primarily, I work in Ruby (Rails or Sinatra) but I
+                  also have some experience in Java. Feel free to check
+                  out some of my work, not much, but hey, I'm learning,
+                  or contact me over in the More section.
                 </div>
                 <div class="six columns offset-by-one">
-                  <img src="img/cloud gears.png" alt="Cloud Gears" width="450px"/>
+                  <img src="images/cloud gears.png" alt="Cloud Gears" width="450px"/>
                 </div>
               </div>
             </li>
             <li id="nice2Tab">
-              <div class="row">
-                <div class="eight columns centered">
-                  <p>Here is some of the stuff I've worked on</p>
-                  <div id="work">
-                    <img src="img/compare-broadband.png" alt="compare-broadband" />
-
+              <div class="slides">
+                  <div id="featured">
+                    <a href="http://compare-broadband.heroku.com" data-caption="#compareCaption"><img src="images/compare-broadband.png"  /></a>
+                    <a href="http://cs405.herokuapp.com" data-caption="#databaseCaption"><img src="images/database-project.png" /></a>
+                    <a href="http://rubygems.org/profiles/blakeshall" data-caption="#gemsCaption"><img src="images/rubygems.png" /></a>
                   </div>
-                </div>
+                  <!-- Captions for Orbit -->
+                  <span class="orbit-caption" id="compareCaption"><strong><a href="http://compare-broadband.heroku.com">Compare-Broadband</a></strong>: a simple site using the broadband.gov API gem I wrote</span>
+                  <span class="orbit-caption" id="databaseCaption"><strong><a href="http://cs405.herokuapp.com">Bill Tracking App</a></strong>: a school project for my databases class to track bills and payments</span>
+                  <span class="orbit-caption" id="gemsCaption"><strong><a href="http://rubygems.org/profiles/blakeshall">Ruby Gems</a></strong>: some Ruby gems I wrote while working at Code for America, for Google Summer of Code 2011</span>
+
               </div>
             </li>
             <li id="nice3Tab">
@@ -74,14 +94,6 @@
       </div>
     </div>
 
-    <script src="js/foundation/jquery-1.5.1.min.js"></script>
-    <script src="js/foundation/jquery.reveal.js"></script>
-    <script src="js/foundation/jquery.orbit-1.3.0.js"></script>
-    <script src="js/foundation/forms.jquery.js"></script>
-    <script src="js/foundation/jquery.customforms.js"></script>
-    <script src="js/foundation/jquery.placeholder.js"></script>
-    <script src="js/foundation/app.js"></script>
-
-  </body>
+ </body>
 
 </html>
