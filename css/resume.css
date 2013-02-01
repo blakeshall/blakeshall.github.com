@@ -1,0 +1,27 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+  padding-bottom: 2em;
+} 
+
+.border-right {
+  border-right: 1px solid #e5e5e5;
+}
+
+.indent {
+  padding-left: 2em;
+}
+
+.pop {
+  font-size: 5em;
+}
+
+.job {
+  margin: 0;
+}
