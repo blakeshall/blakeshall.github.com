@@ -1,5 +1,9 @@
 body {
   font-family: 'Roboto', sans-serif;
+  background-image: URL("../img/mooning.png");
+}
+h1 small{
+  color: inherit;
 }
 .nav {
   padding-top: 20px;
