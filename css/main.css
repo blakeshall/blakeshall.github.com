@@ -7,7 +7,9 @@ Light blue: #1887FF;
 
 html,body {
   font-family: 'Roboto', sans-serif;
-  height: 100%;
+  min-height: 500px; 
+  height:auto !important; 
+  height: 500px;
   /*background-image: URL("../img/mooning.png");*/
   /*font-size: 20px;*/
 }
@@ -33,10 +35,73 @@ footer {
   padding-top: 55px;
 }
 
-.sidebar{
-  /*background-color: #1887FF;*/
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 768px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
 
-  /*-webkit-box-shadow: 8px 0px 8px -8px black;
-     -moz-box-shadow: 8px 0px 8px -8px black;
-          box-shadow: 8px 0px 8px -8px black;*/
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  /*.ribbon {
+     background: #1887FF;
+     height: 50px;
+     position: relative;
+     z-index: 500;
+     margin: 3em 0;
+  }
+
+  .r-triangle-top {
+     border-color: #1887FF transparent transparent;
+     border-style:solid;
+     border-width:50px;
+     height:0px;
+     width:0px;
+     position: relative;
+     float: right;
+     right: -45px;
+     top: -92px;
+  }
+  .r-triangle-bottom {
+     border-color: transparent transparent #1887FF;
+     border-style:solid;
+     border-width:50px;
+     height:0px;
+     width:0px;
+     position: relative;
+     float: right;
+     top: -142px;
+     right: -145px;
+  }*/
 }
