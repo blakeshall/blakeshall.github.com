@@ -7,11 +7,7 @@ Light blue: #1887FF;
 
 html,body {
   font-family: 'Roboto', sans-serif;
-  min-height: 500px; 
-  height:auto !important; 
-  height: 500px;
-  /*background-image: URL("../img/mooning.png");*/
-  /*font-size: 20px;*/
+  height: 100%;
 }
 
 /* Wrapper for page content to push down footer */
@@ -20,19 +16,35 @@ html,body {
   height: auto !important;
   height: 100%;
   /* Negative indent footer by its height */
-  margin: 0 auto -60px;
+  margin: 0 auto -100px;
   /* Pad bottom by footer height */
-  padding: 0 0 120px;
+  padding: 0 0 100px;
 }
 
 /* Set the fixed height of the footer here */
-footer {
-  height: 120px;
+#footer {
+  height: 100px;
   background-color: #f5f5f5;
 }
 
-.container{
-  padding-top: 55px;
+h1,span{
+  font-weight: 100;
+}
+
+@media screen and (min-width: 768px) {
+  #wrap{
+    padding-top: 55px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #wrap{
+    padding-top: 5px;
+  }
+}
+
+.lead{
+  font-weight: 300;
 }
 
 /*
@@ -72,36 +84,6 @@ footer {
   }
 }
 
-
-@media screen and (min-width: 768px) {
-  /*.ribbon {
-     background: #1887FF;
-     height: 50px;
-     position: relative;
-     z-index: 500;
-     margin: 3em 0;
-  }
-
-  .r-triangle-top {
-     border-color: #1887FF transparent transparent;
-     border-style:solid;
-     border-width:50px;
-     height:0px;
-     width:0px;
-     position: relative;
-     float: right;
-     right: -45px;
-     top: -92px;
-  }
-  .r-triangle-bottom {
-     border-color: transparent transparent #1887FF;
-     border-style:solid;
-     border-width:50px;
-     height:0px;
-     width:0px;
-     position: relative;
-     float: right;
-     top: -142px;
-     right: -145px;
-  }*/
+.pull-links{
+  display: inline-block;
 }

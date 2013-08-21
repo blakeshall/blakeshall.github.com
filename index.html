@@ -2,8 +2,9 @@
 <html>
   <head>
     <title>Blake Hall &raquo; Web Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="http://fonts.googleapis.com/css?family=Roboto:400,700"
+    <link href="http://fonts.googleapis.com/css?family=Roboto:100,300,400,700"
     rel="stylesheet" type="text/css">
     <link href="css/main.css" rel="stylesheet" media="screen">
   </head>
@@ -11,20 +12,16 @@
     <div id="wrap">
       <div class="container">
         <div class="row row-offcanvas row-offcanvas-left">
-          <div class="col-md-3 col-sm-6 sidebar-offcanvas" id="sidebar">
+          <div class="col-md-3 col-sm-3 sidebar-offcanvas" id="sidebar">
             <div class="row">
-              <div class="col-md-12">
+              <div class="col-md-8">
                 <img src="img/logo.png" class="img-responsive visible-md visible-lg"/>
               </div>
             </div>
             <div class="row">
-              <div class="col-md-12">
-                <div class="ribbon">
-                  <h1><em>Blake</em><strong>Hall</strong></h1>
-                  <h4>Web Developer</h4>
-                </div>
-                <div class="r-triangle-top"></div>
-                <div class="r-triangle-bottom"></div>
+              <div class="col-md-12 hidden-sm hidden-xs">
+                <h1><span>Blake</span><strong>Hall</strong></h1>
+                <h4>Web Developer</h4>
               </div>
             </div>
             <div class="row">
@@ -38,24 +35,29 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-md-offset-1 col-sm-6">
+          <div class="col-md-6 col-md-offset-0 col-sm-9">
+            <div class="row">
+              <div class="col-xs-6 visible-sm visible-xs">
+                <h1><span>Blake</span><strong>Hall</strong></h1>
+                <h4>Web Developer</h4>
+              </div>
+            </div>
             <div class="row">
               <div class="col-md-12">
-                <img src="img/logo.png" class="img-responsive visible-md visible-xs"/>
-              </div>
-              <div class="col-md-12">
-                <p class="pull-left visible-xs">
-                  <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">
-                    <span class="glyphicon glyphicon-chevron-right pull"></span>
+                <p class="pull-links visible-xs visible-sm">
+                  <button type="button" class="btn btn-primary btn-xs " data-toggle="offcanvas">
+                    Links<span class="glyphicon glyphicon-chevron-right pull"></span>
                   </button>
                 </p>
-                </br>
-                </br>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
                 <p class="lead">
                   I'm Blake and I build websites and web apps.
                 </p>
                 <p>
-                  I'm a freelance developer living in the <a href="http://www.youtube.com/watch?v=VK2xh43NLKM">Kick Ass</a> city of Lexington, KY
+                  I'm a freelance developer living in the <a target="_blank" href="http://www.youtube.com/watch?v=VK2xh43NLKM">kickass</a> city of Lexington, KY
                   and currently working to map
                   public art for <a href="http://www.theartaround.us">ArtAround</a>, when I'm not studying at the
                   University of Kentucky.
@@ -64,17 +66,16 @@
                   Lexington a better place.
                 </p>
                 <p>I'm interested in civic hacking, Ruby,
-                  maps, and just building cool stuff.
+                  maps, and building cool stuff in general.
                   I'm a former intern at Code for America as a Google Summer of
                   Code participant. I do everything from frontend to backend, but primarily Ruby with Rails or Sinatra, but always willing to try
                   something new.
                 </p>
                 <p>I'm always intersted in helping out, whether it be Rails, civic hacking,
-                  or whatever you can think of. I'm also available for contracting or consulting. So, feel free to reach out on <a
+                  or whatever you can think of. I'm also available for contracting or consulting. So, feel free to reach out through <a
                     href="http://twitter.com/blakeshall">Twitter</a> or <a
                     href="mailto:blake@blakeshall.com">Email</a>.
                 </p>
-
               </div>
             </div>
             <div class="row">
@@ -92,21 +93,11 @@
                 </dl>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-12">
-                <h4>Skills</h4>
-                <ul class="list-unstyled list-inline">
-                  <li><button type="button" class="btn btn-primary">Ruby</button></li>
-                  <li><button type="button" class="btn btn-primary">HTML/CSS</button></li>
-                  <li><button type="button" class="btn btn-primary">Javascript</button></li>
-                </ul>
-              </div>
-            </div>
           </div>
         </div>
       </div>
     </div>
-    <footer class="text-muted text-center">
+    <div class="text-muted text-center" id="footer">
       <div class="container">
         <p>
           <a href="http://thenounproject.com/noun/tools/#icon-No5847" target="_blank">Tools</a> designed by <a href="http://thenounproject.com/yxorama" target="_blank">Anuar Zhumaev</a> from The Noun Project.
@@ -116,7 +107,7 @@
           &copy; Blake Hall 2013
         </p>
       </div>
-    </footer>
+    </div>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/offcanvas.js"></script>
