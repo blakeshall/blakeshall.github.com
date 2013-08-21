@@ -14,8 +14,10 @@ body {
   border-right: 1px solid #e5e5e5;
 }
 
-.indent {
-  padding-left: 2em;
+@media screen and (min-width: 768px) {
+  .indent {
+    padding-left: 2em;
+  }
 }
 
 .pop {
