@@ -20,10 +20,27 @@ body {
   }
 }
 
-.pop {
+.name {
+  font-weight: 100;
   font-size: 5em;
+}
+
+.title {
+  font-size: 2.5em;
 }
 
 .job {
   margin: 0;
+}
+
+@media print{
+  .indent {
+    padding-left: 2em;
+  }
+  .name-print{
+    font-weight: 100;
+  }
+  .title-print{
+
+  }
 }

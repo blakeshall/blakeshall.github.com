@@ -3,28 +3,59 @@
   <head>
     <title>Blake Hall Web Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700'
     rel='stylesheet' type='text/css'>
     <link href="css/resume.css" rel="stylesheet">
   </head>
   <body>
     <div class="container">
+
       <div class="row border-bottom">
-        <div class="col-md-6">
-          <h1 class="pop">Blake Hall<br /><small> Web Developer</small></h1>
+        <div class="hidden-print">
+          <div class="col-md-4 col-md-offset-1">
+            <h1 class="name"><span>Blake</span><strong>Hall</strong></h1>
+            <h4 class="title">Web Developer</h4>
+          </div>
+          <div class="col-md-4">
+            <dl class="dl-horizontal">
+              <dt>Website:</dt>
+              <dd><a href="http://blakeshall.com">blakeshall.com</a></dd>
+              <dt>Email:</dt>
+              <dd><a href="mailto:blake@blakeshall.com">blake@blakeshall.com</a></dd>
+              <dt>Phone:</dt>
+              <dd>(859)-749-6825</dd>
+              <dt>GitHub:</dt>
+              <dd><a href="http://www.github.com/blakeshall">blakeshall</a></dd>
+            </dl>
+          </div>
         </div>
-        <div class="col-md-5">
-          <dl class="dl-horizontal">
-            <dt>Website:</dt>
-            <dd><a href="http://blakeshall.com">blakeshall.com</a></dd>
-            <dt>Email:</dt>
-            <dd><a href="mailto:blake@blakeshall.com">blake@blakeshall.com</a></dd>
-            <dt>Phone:</dt>
-            <dd>(859)-749-6825</dd>
-            <dt>GitHub:</dt>
-            <dd><a href="http://www.github.com/blakeshall">blakeshall</a>
-          </dl>
+
+        <div class="visible-print">
+          <div class="col-xs-5 col-xs-offset-1">
+            <h1 class="name-print"><span>Blake</span><strong>Hall</strong></h1>
+            <h4 class="title-print">Web Developer</h4>
+          </div>
+          <div class="col-xs-6">
+            <div class="row">
+              <div class="col-xs-6">
+                <dl class="dl-horizontal">
+                  <dt>Website:</dt>
+                  <dd><a href="http://blakeshall.com">blakeshall.com</a></dd>
+                  <dt>Email:</dt>
+                  <dd><a href="mailto:blake@blakeshall.com">blake@blakeshall.com</a></dd>
+                </dl>
+              </div>
+              <div class="col-xs-6">
+                <dl class="dl-horizontal">
+                  <dt>Phone:</dt>
+                  <dd>(859)-749-6825</dd>
+                  <dt>GitHub:</dt>
+                  <dd><a href="http://www.github.com/blakeshall">blakeshall</a></dd>
+                </dl>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -34,7 +65,7 @@
           <div class="indent">
             <div class="row">
               <div class="col-md-8">
-                <p class="lead job">ArtAround</p>
+                <p class="lead job">ArtAround</p>                
                 <strong>2013 - Present</strong>
                 <p>Part-time Rails developer responsible for maintaining and
                   extending <a href="http://www.theartaround.us">ArtAround</a>,
@@ -45,24 +76,12 @@
             </div>
             <div class="row">
               <div class="col-md-8">
-                <p class="lead job">CirrusMio</p>
+                <p class="lead job">Cirrumdio</p>
                 <strong>2012-2013</strong>
                 <p>Ruby on Rails developer from the beginning working on CivicRush.com and
                 CivChoice.com. Primarily Rails and backend related development,
                 but front-end when required. Stack included Rails 3, MySQL, Redis,
                 and Solr. Testing done with test-unit and capybara-webkit.</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-8">
-                <p class="lead job">OpenLexington</p>
-                <strong>2012-Present</strong>
-                <p>Member of the local Code for America Brigade. Working to
-                  increase government efficiency, citizen engagement, and solve
-                  any other community problems using technology. Implementing
-                  and building open-source, civic apps for the city of
-                  Lexington, KY.
-                </p>
               </div>
             </div>
             <div class="row">
@@ -92,25 +111,33 @@
       </div>
 
       <div class="row">
-        <div class="col-md-5 col-md-offset-1 border-right">
+        <div class="col-xs-5 col-xs-offset-1 border-right">
           <h2>Skills</h2>
-          <ul class="unstyled indent">
-            <li><i class="icon-check"></i> Ruby</li>
-            <li><i class="icon-check"></i> Rails</li>
-            <li><i class="icon-check"></i> Sinatra</li>
-            <li><i class="icon-check"></i> Git</li>
-            <li><i class="icon-check"></i> HTML/CSS</li>
-            <li><i class="icon-check"></i> JavaScript</li>
-            <li><i class="icon-check"></i> C++</li>
-            <li><i class="icon-check"></i> Java</li>
-          </ul>
+          <div class="row">
+            <div class="col-xs-6">
+              <ul class="unstyled">
+                <li><i class="icon-check"></i> Ruby</li>
+                <li><i class="icon-check"></i> Rails</li>
+                <li><i class="icon-check"></i> Sinatra</li>
+                <li><i class="icon-check"></i> Git</li>
+              </ul>
+            </div>
+            <div class="col-xs-6"
+              <ul class="unstyled">
+                <li><i class="icon-check"></i> HTML/CSS</li>
+                <li><i class="icon-check"></i> JavaScript</li>
+                <li><i class="icon-check"></i> C++</li>
+                <li><i class="icon-check"></i> Java</li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="col-md-5">
+        <div class="col-xs-5">
           <div class="indent">
             <h2>Education</h2>
             <div class="indent">
               <p class="lead job">University of Kentucky</p>
-              <strong>Current -- 106 of 127 hours</strong>
+              <strong>Expected: May 2014</strong>
               <p>BS in Computer Science</p>
             </div>
           </div>
@@ -120,10 +147,17 @@
       <div class="row">
         <div class="col-md-10 col-md-offset-1 border-top">
           <h2>Interests</h2>
-          <p class="indent">
-            Civic hacking, Ruby, maps, open source, video games, urbanization,
-            ultimate frisbee, and photography.
-          </p>
+          <div class="row">
+              <div class="col-md-8 indent">
+                <p class="lead job">OpenLexington</p>
+                <p>Member of the local Code for America Brigade. Working to
+                  increase government efficiency, citizen engagement, and solve
+                  any other community problems using technology. Implementing
+                  and building open-source, civic apps for the city of
+                  Lexington, KY.
+                </p>
+              </div>
+            </div>
         </div>
       </div>
     </div>
