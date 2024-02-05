@@ -1,205 +1,132 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
-    <title>Blake Hall Web Developer</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700'
-    rel='stylesheet' type='text/css'>
-    <link href="css/resume.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blake Hall - Software Engineer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+      body {
+        /* background-color: #212529; */
+      }
+
+      ul {
+        list-style: none;
+      }
+      h3 {
+        font-weight: bold;
+      }
+    </style>
   </head>
   <body>
-    <div class="container">
-      <div class="row border-bottom">
-        <div class="hidden-print">
-          <div class="col-md-5 col-md-offset-1">
-            <h1 class="name"><span>Blake</span><strong>Hall</strong></h1>
-            <h4 class="title">Web Developer</h4>
-          </div>
-          <div class="col-md-4">
-            <dl class="dl-horizontal">
-              <dt>Website:</dt>
-              <dd><a href="http://blakeshall.com">blakeshall.com</a></dd>
-              <dt>Email:</dt>
-              <dd><a href="mailto:blake@blakeshall.com">blake@blakeshall.com</a></dd>
-              <dt>Phone:</dt>
-              <dd>(859)-749-6825</dd>
-              <dt>GitHub:</dt>
-              <dd><a href="http://www.github.com/blakeshall">blakeshall</a></dd>
-              <dt></dt><dd><a href="resume.pdf" title="blake_hall_resume.pdf" class="btn btn-primary">Download PDF</a></dd>
-            </dl>
-          </div>
-        </div>
-
-        <div class="visible-print">
-          <div class="col-xs-5 col-xs-offset-1">
-            <h1 class="name-print"><span>Blake</span><strong>Hall</strong></h1>
-            <h4 class="title-print">Web Developer</h4>
-          </div>
-          <div class="col-xs-6">
-            <div class="row">
-              <div class="col-xs-6">
-                <dl class="dl-horizontal">
-                  <dt>Website:</dt>
-                  <dd><a href="http://blakeshall.com">blakeshall.com</a></dd>
-                  <dt>Email:</dt>
-                  <dd><a href="mailto:blake@blakeshall.com">blake@blakeshall.com</a></dd>
-                </dl>
-              </div>
-              <div class="col-xs-6">
-                <dl class="dl-horizontal">
-                  <dt>Phone:</dt>
-                  <dd>(859)-749-6825</dd>
-                  <dt>GitHub:</dt>
-                  <dd><a href="http://www.github.com/blakeshall">blakeshall</a></dd>
-                </dl>
-              </div>
-            </div>
-          </div>
-        </div>
+    <div class="container bg-body text-body">
+      <div class="row text-center py-3">
+        <h1 class="display-1">Blake Hall</h1>
+        <h2>Software Engineer</h2>
       </div>
-
       <div class="row">
-        <div class="col-md-10 col-md-offset-1 border-bottom">
-          <h2>Experience</h2>
-          <div class="indent">
-            <div class="row">
-              <div class="col-md-8">
-                <p class="lead job">Framebridge</p>
-                <strong>2020-Present</strong>
-                <p>
-                  Senior Software Engineer work on a Rails monolith with a mixed front-end of
-                  AngularJS and Vue. Responsible for maintaining and new feature work for 
-                  internal tools and integrations with third party services and equipment.
-                </p>
-              </div>
+        <div class="col-3 text-end bg-secondary-subtle m-1 pe-4">
+          <div class="sidebar-item py-2">
+            <h3>Contact</h3>
+            <ul>
+              <li>
+                <span>blake@blakeshall.com</span>
+                <i class="bi bi-envelope"></i>
+              </li>
+              <li>
+                <span>(859)-749-6825</span>
+                <i class="bi bi-telephone"></i>
+              </li>
+              <li>
+                <span>blakeshall</span>
+                <i class="bi bi-github"></i>
+              </li>
+            </ul>
+          </div>
+          <div class="sidebar-item py-2">
+            <h3>Education</h3>
+            <div>
+              <div>B.S.</div>
+              <div>Computer Science</div>
+              <div>University of Kentucky</div>
+              <div>May 2014</div>
             </div>
-            <div class="row">
-              <div class="col-md-8">
-                <p class="lead job">UserTesting</p>
-                <strong>2015-2020</strong>
-                <p>
-                  Full stack software engineer working on a Rails monolith with some side services.
-                  Working in Ruby on Rails, Angular (typescript), with Rspec and Capybara for ruby
-                  specs and jest for JS testing.
-                </p>
-                <p>
-                  Worked on many projects and led a few, including substantial new feature work as well as
-                  large refactors/upgrades.
-                </p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-8">
-                <p class="lead job">Granicus, Inc.</p>
-                <strong>2014 - 2015</strong>
-                <p>
-                  Software engineer focusing on full stack web development.
-                  Worked on multiple projects, predominately Ruby on Rails
-                  with HAML, LESS, CoffeeScript, and RSpec for testing.
-                  Used Postgres and MongoDB for databases, 
-                  Marionette.js for client side framework
-                </p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-8">
-                <p class="lead job">ArtAround</p>                
-                <strong>2013 - 2014</strong>
-                <p>Part-time Rails developer responsible for maintaining and
-                  extending <a href="http://www.theartaround.us">ArtAround</a>,
-                  a website and resource dedicated to cataloging public art,
-                  and its API used by the iOS app. Rails3 with MongoDB for the
-                  database and RSpec for testing.</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-8">
-                <p class="lead job">CirrusMio</p>
-                <strong>2012-2013</strong>
-                <p>Ruby on Rails developer from the beginning working on CivicRush.com and
-                CivChoice.com. Primarily Rails and backend related development,
-                but front-end when required. Stack included Rails 3, MySQL, Redis,
-                and Solr. Testing done with test-unit and capybara-webkit.</p>
-              </div>
-            </div>
+          </div>
+          <div class="sidebar-item py-2">
+            <h3>Skills</h3>
+            <ul>
+              <li>Ruby on Rails</li>
+              <li>JavaScript(React, Angular)</li>
+              <li>SQL</li>
+              <li>HTML/CSS</li>
+              <li>Git</li>
+              <li>Unit/Integration/Feature Testing</li>
+              <li>Project Management</li>
+            </ul>
           </div>
         </div>
-      </div>
+        <div class="col-8 gx-5 py-2 m-1">
+          <h3>Work Experience</h3>
 
-      <div class="row">
-        <div class="col-xs-6 col-md-offset-1 border-right">
-          <h2>Skills</h2>
-          <div class="row">
-            <div class="col-xs-6">
-              <ul class="list-unstyled">
-                <li><i class="glyphicon glyphicon-ok"></i> Ruby</li>
-                <li><i class="glyphicon glyphicon-ok"></i> Rails</li>
-                <li><i class="glyphicon glyphicon-ok"></i> Angular</li>
-                <li><i class="glyphicon glyphicon-ok"></i> Git</li>
-              </ul>
-            </div>
-            <div class="col-xs-6">
-              <ul class="list-unstyled">
-                <li><i class="glyphicon glyphicon-ok"></i> HTML/CSS</li>
-                <li><i class="glyphicon glyphicon-ok"></i> JavaScript</li>
-                <li><i class="glyphicon glyphicon-ok"></i> Project Management</li>
-                <li><i class="glyphicon glyphicon-ok"></i> Unit/Integration/Etc. Testing</li>
-              </ul>
-            </div>
+          <div class="job">
+            <h4 class="">Senior Software Engineer</h4>
+            <h5>
+              Framebridge
+            </h5>
+            <h6><small class="text-body-secondary">2020-2024</small></h6>
+            <p>
+              Individual contributor and occasional project lead working on a Rails monolith with a frontend mix of AngularJS and Vue. Responsible for maintaining internal
+              tools used in the manufacturing process, including integrations with 3rd party services and equipment. Primary focus was supporting new initiatives while
+              also working to address tech debt around performance and data model organization.
+            </p>
           </div>
-        </div>
-        <div class="col-xs-4">
-          <div class="indent">
-            <h2>Education</h2>
-            <div class="indent">
-              <p class="lead job">University of Kentucky</p>
-              <strong>May 2014</strong>
-              <p>BS in Computer Science</p>
-            </div>
+          <div class="job">
+            <h4 class="">Software Engineer</h4>
+            <h5>
+              UserTesting
+            </h5>
+            <h6><small class="text-body-secondary">2015-2020</small></h6>
+            <p>
+              Individual contributor doing full stack development on a Rails monolith with an Angular frontend. Worked on everything from frontend framework migration,
+              large feature rollouts, and major refactors/upgrades. Technical lead for some larger, one-off, projects.
+            </p>
           </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-10 col-md-offset-1 border-top">
-          <h2>Interests</h2>
-          <div class="row">
-            <div class="col-md-8 indent">
-              <p class="lead job">Code for America Brigade</p>
-              <p>Member of OpenLexington, a Code for America Brigade. Working to
-                increase government efficiency, citizen engagement, and solve
-                any other community problems using technology. Implementing
-                and building open-source, civic apps for the city of
-                Lexington, KY.
-              </p>
-            </div>
+          <div class="job">
+            <h4 class="">Software Engineer</h4>
+            <h5>
+              Granicus
+            </h5>
+            <h6><small class="text-body-secondary">2014-2015</small></h6>
+            <p>
+              Full stack developer working on multiple projects, predominantly in Ruby on Rails with a frontend in Marionette.JS. Mixture of standalone monoliths with some micro services. 
+            </p>
           </div>
-          <div class="row">
-            <div class="col-md-8 indent">
-              <p class="lead job">Urban Planning/Development</p>
-              <p>
-                This doesn't have anything to do with software development, but
-                I have extensive interest in how we build (or don't build) our
-                cities. Feel free to ask my opinions on the housing shortage
-                and how our built environment affects our daily lives.
-              </p>
-            </div>
+          <div class="job">
+            <h4 class="">Software Engineer</h4>
+            <h5>
+              ArtAround
+            </h5>
+            <h6><small class="text-body-secondary">2013-2014</small></h6>
+            <p>
+              Part-time Rails developer responsible for maintaining and extending <a href="http://www.theartaround.us">ArtAround</a>,
+              a website and resource dedicated to cataloging public art, and its API used by the iOS app. Rails3 with MongoDB for the
+              database and RSpec for testing.
+            </p>
+          </div>
+          <div class="job">
+            <h4 class="">Junior Software Engineer</h4>
+            <h5>
+              CirrusMio
+            </h5>
+            <h6><small class="text-body-secondary">2012-2013</small></h6>
+            <p>
+              Part of the initial development team, primarily Rails and backend related development, but with frontend work when required. Stack included Rails 3, MySQL, Redis, and Solr.
+            </p>
           </div>
         </div>
       </div>
     </div>
-
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-36751539-2', 'blakeshall.github.io');
-      ga('send', 'pageview');
-
-    </script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
